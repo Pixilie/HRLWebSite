@@ -14,8 +14,8 @@ function DStanding() {
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td align="center">
+						<tr className={styles.Seclign}>
+							<td align="center" >
 								Numéro
 							</td>
 

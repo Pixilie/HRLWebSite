@@ -14,7 +14,7 @@ function CStanding() {
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						<tr className={styles.Seclign}>
 							<td align="center">
 								Écurie
 							</td>
