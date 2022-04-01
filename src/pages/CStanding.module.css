@@ -1,0 +1,24 @@
+.presentation {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 10px;
+}
+
+.standing {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+table,
+td {
+	border: 1px solid #333;
+	padding: 10px;
+	font-size: 30px;
+}
+
+thead,
+tfoot {
+	background-color: #333;
+	color: #fff;
+}

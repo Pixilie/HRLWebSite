@@ -1,0 +1,27 @@
+.header {
+	background-color: rgb(61, 120, 250);
+	display: flex;
+}
+
+.nav {
+	display: flex;
+}
+
+.navButton {
+	display: flex;
+	margin: 10px;
+	font-size: 20px;
+	padding: 10px;
+
+	color: white;
+	text-decoration: none;
+}
+
+.navButton:hover {
+	text-decoration: underline;
+}
+
+.pageName {
+	color: rgb(255, 255, 255);
+	margin: 10px;
+}
