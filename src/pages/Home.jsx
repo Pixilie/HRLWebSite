@@ -1,6 +1,4 @@
 import styles from './Home.module.css';
-import Footer from '../components/CountDown';
-import CountDown from '../components/CountDown';
 import TrackPreview from '../components/TrackPreview';
 import ArticleTwo from '../components/ArticleTwo';
 

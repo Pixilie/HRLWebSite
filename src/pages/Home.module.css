@@ -10,7 +10,7 @@
 
 .title {
 	margin: 0 auto;
-	font-size: 40px;
+	font-size: 270%;
 }
 
 .ArticleOne {
@@ -20,13 +20,14 @@
 }
 
 .AOTitle {
-	font-size: 25px;
+	font-size: 150%;
 }
 
 .AOText {
 	display: flex;
 	flex-direction: column;
 	margin-left: 1%;
+	font-size: 100%;
 }
 
 .ArticleTwo {
@@ -36,11 +37,12 @@
 }
 
 .ATTitle {
-	font-size: 25px;
+	font-size: 150%;
 }
 
 .ATText {
 	display: flex;
 	flex-direction: column;
 	margin-left: 1%;
+	font-size: 100%;
 }
