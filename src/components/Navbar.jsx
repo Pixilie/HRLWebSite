@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
-import Logo from './Logo';
+import logo from './images/hollowracing.png';
 
 function Navbar() {
 	return (
-		<header className={styles.header}>
-			<Logo />
+		<nav className={styles.header}>
+			<img src={logo} alt="hrl logo" className={styles.Logo} />
 			<h1 className={styles.pageName}>Hollow Racing League</h1>
-			<nav className={styles.nav}>
+			<div className={styles.nav}>
 				<Link to="/" className={styles.navButton}>
 					Accueil
 				</Link>
@@ -20,8 +20,8 @@ function Navbar() {
 				<Link to="/calendar" className={styles.navButton}>
 					Calendrier
 				</Link>
-			</nav>
-		</header>
+			</div>
+		</nav>
 	);
 }
 

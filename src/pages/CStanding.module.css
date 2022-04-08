@@ -1,14 +1,12 @@
 .presentation {
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
-	padding: 10px;
+	margin: 20px;
 }
 
 .standing {
 	margin: 0 auto;
 	margin: auto 0;
-	padding: 20px;
 }
 
 table,

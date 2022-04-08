@@ -1,3 +1,5 @@
+
+
 .header {
 	background-color: rgb(61, 120, 250);
 	display: flex;
@@ -10,10 +12,10 @@
 }
 
 .navButton {
-	font-size: 25px;
-	padding: 35px;
-	color: white;
-	text-decoration: none;
+		font-size: 25px;
+		padding: 35px;
+		color: white;
+		text-decoration: none;
 }
 
 .navButton:hover {
@@ -24,4 +26,8 @@
 	color: rgb(255, 255, 255);
 	margin: 20px;
 	font-size: 40px;
+}
+
+.Logo {
+    width: 6%;
 }

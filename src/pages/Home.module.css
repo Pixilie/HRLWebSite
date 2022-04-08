@@ -1,11 +1,6 @@
-* {
-	overflow-x: hidden;
-}
-
 .presentation {
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
 }
 
 .title {
@@ -45,4 +40,14 @@
 	flex-direction: column;
 	margin-left: 1%;
 	font-size: 100%;
+}
+
+.ArticleOneImg {
+    height: 20%;
+    width: 20%;
+}
+
+.ArticleTwoImg {
+	height: 20%;
+    width: 15%;
 }

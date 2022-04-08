@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
-import TrackPreview from '../components/TrackPreview';
-import ArticleTwo from '../components/ArticleTwo';
+import ArticleOneImg from './images/ArticleOneImg.jpg';
+import ArticleTwoImg from './images/ArticleTwoImg.jpg';
 
 function Home() {
 	return (
@@ -8,18 +8,18 @@ function Home() {
 				<h1 className={styles.title}>Informations</h1>
 
 				<div className={styles.ArticleOne}>
-					<TrackPreview />
+				<img src={ArticleOneImg} alt="ArticleOneImg" className={styles.ArticleOneImg}/>
 					<div className={styles.AOText}>
 							<p className={styles.AOTitle}>Grand Prix de Bahrain  </p>
 							<p>
-								Le premier grand prix de la saison aura lieu le 2 Avril 2022 sur le circuit de Sakhir.
+								Le premier grand prix de la saison aura lieu le 16 Avril 2022 sur le circuit de Sakhir.
 								Les pilotes devront couvrir une distante de 150 km soit 27 tours dans des conditions pas très favorables en raison des tempêtes de sable ayant eût lieu ces derniers jours.
 							</p>
 					</div>
 				</div>
 
 				<div className={styles.ArticleTwo}>
-					<ArticleTwo />
+				<img src={ArticleTwoImg} alt="ArticleTwoImg" className={styles.ArticleTwoImg}/>
 					<div className={styles.ATText}>
 							<p className={styles.ATTitle}>Desplanche Champion du monde  </p>
 							<p>
