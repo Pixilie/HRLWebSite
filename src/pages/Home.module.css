@@ -1,6 +1,8 @@
 .presentation {
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	padding-bottom: 4.5rem;
 }
 
 .title {
@@ -10,7 +12,7 @@
 
 .ArticleOne {
 	display: flex;
-	margin-top: 5%;
+	margin: 2%;
 	border: solid 2px black;
 }
 
@@ -27,7 +29,7 @@
 
 .ArticleTwo {
 	display: flex;
-	margin-top: 5%;
+	margin: 2%;
 	border: solid 2px black;
 }
 

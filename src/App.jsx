@@ -15,7 +15,7 @@ function App() {
 		<>
 			<Navbar />
 
-			<Page>
+			<Page className={styles.Pages}>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/c-standing" element={<CStanding />} />
