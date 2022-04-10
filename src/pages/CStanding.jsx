@@ -1,5 +1,30 @@
 import styles from './CStanding.module.css';
 
+const constructor = [
+	{
+		team: 'Mercedes AMG Petronas F1 Team',
+		points: '0',
+	},
+	{
+		team: 'Redbull Racing Honda',
+		points: '0',
+	},
+	{
+		team: 'Alpine Renault F1 Team',
+		points: '0',
+	},
+];
+
+function Constructor(props) {
+	return (
+		<tr>
+			<td align="center">{props.team}</td>
+
+			<td align="center">{props.points}</td>
+		</tr>
+	);
+}
+
 function CStanding() {
 	return (
 		<div className={styles.presentation}>
@@ -16,23 +41,9 @@ function CStanding() {
 						<td align="center">Nombre de points</td>
 					</tr>
 
-					<tr>
-						<td align="center">Mercedes AMG Petronas F1 Team</td>
-
-						<td align="center">0</td>
-					</tr>
-
-					<tr>
-						<td align="center">Redbull Racing Honda</td>
-
-						<td align="center">0</td>
-					</tr>
-
-					<tr>
-						<td align="center">Alpine Renault F1 Team</td>
-
-						<td align="center">0</td>
-					</tr>
+					{constructor.map((list) => (
+						<Constructor {...list} key={list.team} />
+					))}
 				</tbody>
 			</table>
 		</div>
