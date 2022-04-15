@@ -22,8 +22,8 @@ const events = [
 		imgSrc: ImolaImg,
 		imgAlt: 'imola',
 		title: 'Italie - Imola',
-		date: '7 Mai 2022',
-		link: '#',
+		date: '18 Avril 2022',
+		link: 'https://docs.google.com/document/d/1sLGG-j5MypcuSCndrFTjzUwtby5eEfTS7yD6EzxpRVM/edit?usp=sharing',
 	},
 	{
 		imgSrc: SpielbergImg,
