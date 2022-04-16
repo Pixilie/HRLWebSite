@@ -5,13 +5,13 @@ const driver = [
 		number: '22',
 		name: 'Gaëtan Desplanche',
 		team: 'Mercedes AMG Petronas F1 Team',
-		points: '0',
+		points: '16',
 	},
 	{
-		number: '29',
-		name: 'Noé Costa',
-		team: 'Mercedes AMG Petronas F1 Team',
-		points: '0',
+		number: '4',
+		name: 'Louis Baudry',
+		team: 'Redbull Racing Honda',
+		points: '12',
 	},
 	{
 		number: '76',
@@ -32,9 +32,9 @@ const driver = [
 		points: '0',
 	},
 	{
-		number: '4',
-		name: 'Louis Baudry',
-		team: 'Redbull Racing Honda',
+		number: '29',
+		name: 'Noé Costa',
+		team: 'Mercedes AMG Petronas F1 Team',
 		points: '0',
 	},
 ];
