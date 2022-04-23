@@ -29,8 +29,8 @@ const events = [
 		imgSrc: SpielbergImg,
 		imgAlt: 'spielberg',
 		title: 'Autriche - Spielberg',
-		date: 'Non-définie',
-		link: '#',
+		date: '14 Mai 2022',
+		link: 'https://docs.google.com/document/d/1wbYY34cJkRnIYi_7SpvIhuGaUOc5KLX1I-RL4KyY9GE/edit?usp=sharing',
 	},
 	{
 		imgSrc: PortimaoImg,

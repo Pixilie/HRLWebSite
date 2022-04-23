@@ -2,16 +2,16 @@ import styles from './CStanding.module.css';
 
 const constructor = [
 	{
-		team: 'Mercedes AMG Petronas F1 Team',
-		points: '16',
+		team: 'Redbull Racing Honda',
+		points: '34',
 	},
 	{
-		team: 'Redbull Racing Honda',
-		points: '12',
+		team: 'Mercedes AMG Petronas F1 Team',
+		points: '32',
 	},
 	{
 		team: 'Alpine Renault F1 Team',
-		points: '0',
+		points: '7',
 	},
 ];
 
